@@ -1467,8 +1467,8 @@ section{
 
     .header{
         display: flex;
-        gap: 5rem;
-        padding: 3.5rem;
+        gap: 3rem;
+        padding: 2rem;
     }
     .header h1{
         padding: 0;
@@ -1479,7 +1479,6 @@ section{
     }
     .header i{
         display: block;
-        width: 9px;
     }
     .header i:hover{
         color: #e63e3e;
@@ -1493,16 +1492,15 @@ section{
         justify-content: center;
         text-align: center;
         margin: 0;
-        padding: 1rem;
     }
     .header2 h3{
         font-size: 30px;
-        width: 500px;
+        width: 300px;
     }
 
     .body-card{
         top: 0;
-        right: 50px;
+        right: 40px;
         left: 0;
         bottom: 0;
         margin: 0;
@@ -1510,22 +1508,22 @@ section{
     }
     .text-card{
         display: block;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .text-card1{
         display: block;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 
     .card-imge1 img{
         display: none;
     }
     .card-imge2{
-        width: 440px;
+        width: 400px;
     }
     .card-imge3{
-        width: 440px;
+        width: 400px;
     }
     
     .trusted{
@@ -1535,20 +1533,20 @@ section{
     }
     .trusted h1{
         justify-content: center;
-        font-size: 25px;
+        font-size: 20px;
     }
     .trusteds{
-        padding-left: 12rem;
+        padding-left: 11rem;
     }
     .img-card img{
-        width: 70px;
+        width: 60px;
     }
 
     .card-pro{
-        padding-left: 1rem;
+        justify-content: center;
     }
     .card-proj img{
-        width: 400px;
+        width: 345px;
         height: 250px;
     }
     .card-proj h2{
@@ -1572,7 +1570,7 @@ section{
         display: block;
     }
     .project-card img{
-        width: 400px;
+        width: 345px;
         height: 250px;
     }
     .project-card h2{
@@ -1590,15 +1588,20 @@ section{
         color: #fff;
         font-weight: 500;
     }
+
+    .card-about{
+        justify-content: center;
+        text-align: center;
+    }
     .card-about h2{
-        font-size: 20px;
+        font-size: 19px;
     }
     .card-about p{
         font-weight: 500;
         font-size: 9px;
     }
     .about-img img{
-        width: 580px;
+        width: 400px;
         border-radius: 5px;
     }
 
@@ -1608,29 +1611,33 @@ section{
         margin: 0;
     }
 
+
     .art{
-        width: 350px;
+        width: 330px;
         padding: 0;
     }
     .art img{
         border-radius: 5px;
-        width: 350px;
+        width: 330px;
     }
     .art h1{
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 600;
     }
     .art p{
         font-size: 19px;
     }
 
+    .card-great{
+        width: 535px;
+    }
     .card-great h1{
         font-size: 15px;
-        width: 300px;
+        width: 250px;
     }
     .button3{
         padding: 0.8rem;
-        font-size: 10px;
+        font-size: 8px;
         margin-left: 4rem;
     }
     .button3:hover{
@@ -1652,8 +1659,7 @@ section{
 
     .lots{
         display: flex;
-        margin-left: 1rem;
-        gap: 5rem;
+        gap: 2rem;
         width: 460px;
         height: 50px;
         border-radius: 10px;
